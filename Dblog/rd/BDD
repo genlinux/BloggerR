@@ -11,4 +11,21 @@ is the same cycle depicted in Figure 1.1, on page 19, but we’ve added some det
       on page 201).
     • Execute the scenario with Cucumber. This will show you which steps are pending. When you first start out most, if not all of the steps will be pending.
     • Write a step definition for the first step. Execute the scenario with Cucumber and watch it fail.
-    • Drive out the view implementation using the red/green/refactor  cycle with RSpec. You’ll discover any assigned instance variables,
+    • Drive out the view implementation using the red/green/refactor  cycle with RSpec. You’ll discover any assigned instance variables
+    
+    
+Steps to proceed:
+
+1.Setup a rails project
+2.System-wide gems
+sudo gem install cucumber rspec-rails webrat
+Rspec is a dependency of rspec-rails, so when you install rspec-rails, Rspec by 
+default will get installed.
+3.Bootstrapping the app with Cucumber and rspec
+>script/generate cucumber
+>script/generate rspec
+
+
+
+Working with cucumber
+Cucumber scenarios server as a high level description of a Rails application's behaviour within your codebase.As such, they will replace Rails  integration tests and serve as the outer loop in the outside-in-development cycle.
