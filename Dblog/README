@@ -1,2 +1,17 @@
 == Welcome to DBlog
 
+DBLog is a experimental Problogger.This project main aim is to concentrate on different parts of research and development in ruby and Jquery.
+
+Here by i am very thankful to In Deepika to change my life back to normal.
+
+== Getting Started
+
+
+
+Finally, when you're ready to resume execution, you enter "cont"
+
+
+vendor
+  External libraries that the application depends on. Also includes the plugins subdirectory.
+  If the app has frozen rails, those gems also go here, under vendor/rails/.
+  This directory is in the load path.
