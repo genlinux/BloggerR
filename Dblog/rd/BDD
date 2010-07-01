@@ -1,0 +1,14 @@
+BDD-Behaviour Driven Development
+
+Behaviour-Driven Development (BDD) is an evolution in the thinking behind TestDrivenDevelopment and AcceptanceTestDrivenPlanning. 
+
+It brings together strands from TestDrivenDevelopment and DomainDrivenDesign into an integrated whole, making the relationship between these two powerful approaches to software development more evident.
+
+The BDD cycle with Rails is the same Outside-In process you’d use with  any other framework (or no framework), web, desktop, command line, or even an API. The cycle depicted in Figure 17.1, on the following page
+is the same cycle depicted in Figure 1.1, on page 19, but we’ve added some detail to help you map it to Rails.
+
+    • Start with a scenario. Make sure you have a clear understanding  of the scenario and how it is expected to work, including how the UI should support a user interacting with the app (see the sidebar
+      on page 201).
+    • Execute the scenario with Cucumber. This will show you which steps are pending. When you first start out most, if not all of the steps will be pending.
+    • Write a step definition for the first step. Execute the scenario with Cucumber and watch it fail.
+    • Drive out the view implementation using the red/green/refactor  cycle with RSpec. You’ll discover any assigned instance variables,
