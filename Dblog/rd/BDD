@@ -30,4 +30,7 @@ default will get installed.
 Working with cucumber
 Cucumber scenarios server as a high level description of a Rails application's behaviour within your codebase.As such, they will replace Rails  integration tests and serve as the outer loop in the outside-in-development cycle.
 
-4.Create a feature file inside the directory features(For example, i have created article_description.feature)
+4.Create a feature file inside the directory features(For example, i have created manage_articles.feature)
+5.Whenever we are writing feature. the three common text will In order, As, I want
+6.Under Feature when we write scenario the three keywords will Given, When and Then
+7.Once Feature and Scenario is completed, run the command ruby script/cucumber
