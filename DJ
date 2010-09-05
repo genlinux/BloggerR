@@ -1,6 +1,31 @@
 #This file will be the checkpoint or finding any new updates and any enhancements in the project.
 #The file has been named since the name of the girl DJ, who makes changes in my life.
+#Git Steps
+Global setup:
 
+ Download and install Git
+  git config --global user.name "Gen.lostwarrior"
+  git config --global user.email genlinuxworks@gmail.com
+        
+
+Next steps:
+
+  mkdir Blognotes
+  cd Blognotes
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:genlinux/Blognotes.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:genlinux/Blognotes.git
+  git push origin master
+      
 #Project started @ 28-june-2010
 #Have created the project stuck up with open-ssl error @ 29-june-2010
 
