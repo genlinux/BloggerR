@@ -4,11 +4,8 @@ module Parsexml
   
   def parser(xml)
     @xml ||= Hpricot(open(xml))
-    (@xml/'user').each do|st|
-    user = (st/'firstname').inner_html
-    text = (st/'lastname').inner_html
-    puts "#{user} said #{text}"
+    @xml1=open(xml) do |f|
+      Hpricot.XML(f)
+    end
   end
-  
-end
 end

@@ -1,2 +1,8 @@
-<h1>Xml#index</h1>
-
+<h3>Normal</h3>
+<%(@xml/'user').each do |xml|%>
+<%=(xml/'firstname')%>
+<%end%>
+<h3>XML</h3>
+<%(@xml1/'user').each do |xml|%>
+<%=(xml/'Firstname')%>
+<%end%>
