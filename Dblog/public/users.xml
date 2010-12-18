@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users type="array">
+  <user>
+    <Firstname>Thanuja</Firstname>
+    <Lastname>Arasu</Lastname>
+    <activation-code nil="true"/>
+    <created-at type="datetime">2010-07-20T00:33:41Z</created-at>
+    <enabled type="boolean">true</enabled>
+    <id type="integer">5</id>
+    <last-login type="datetime" nil="true"/>
+    <login>thanuja</login>
+    <password nil="true"/>
+    <remember-token nil="true"/>
+    <remember-token-expires-at type="datetime" nil="true"/>
+    <updated-at type="datetime">2010-07-20T00:33:41Z</updated-at>
+  </user>
+  <user>
+    <Firstname>Deepiak</Firstname>
+    <Lastname>test</Lastname>
+    <activation-code nil="true"/>
+    <created-at type="datetime">2010-08-22T14:17:16Z</created-at>
+    <enabled type="boolean">true</enabled>
+    <id type="integer">6</id>
+    <last-login type="datetime" nil="true"/>
+    <login>test</login>
+    <password nil="true"/>
+    <remember-token nil="true"/>
+    <remember-token-expires-at type="datetime" nil="true"/>
+    <updated-at type="datetime">2010-08-22T14:17:16Z</updated-at>
+  </user>
+</users>
